@@ -1,0 +1,255 @@
+body {
+    height: 1000px;
+}
+
+.navbar {
+    background-color: #0b70c3 !important;
+    height: 90px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 15px;
+}
+
+nav img {
+    margin-left: 70px;
+    margin-right: -100px;
+}
+
+nav .navbar-brand {
+  padding-top: -10px;
+}
+
+nav .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 1s;
+    padding-bottom: -1px;
+}
+nav .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.cari {
+    background-color: #0b70c3;
+    border: 1px solid white;
+    color: white;
+}
+.cari:hover {
+    background-color: #0b70c3;
+    border: 1px solid white;    
+}
+
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demo-bg {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .demo-content {
+    position: relative;
+    margin-top: 150px;
+    color: #ffffff;
+  }
+
+.demo-content .welcome {
+  font-family: 'Doppio One', sans-serif;
+    color: #014074;
+    margin-left: -650px;
+    font-size: 90px;
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.demo-content .welcome span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+.demo-content .welcome span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.demo-content .welcome span:nth-child(2) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+  .demo-content .btn {
+    font-family: 'Doppio One', sans-serif;
+      background-color: #0b70c3;
+      border-radius: 30px;
+      margin-left: 275px;
+      margin-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  /* about */
+.about {
+    height: 625px;
+    background-image: linear-gradient(white, #bac9eb);
+    padding-top: 90px;
+    color: black;
+}
+.about img {
+    width: 250px;
+}
+.about ul li {
+	display: inline-block;
+	list-style: none;
+}
+.about .see-more {
+    font-size: 14px;
+	border-radius: 30px;
+}
+.about .biografi {
+    font-size: 14px;
+	border-radius: 30px;
+	margin-left: 15px;
+}
+.about .garis {
+  margin: 0 auto;
+	width: 150px;
+	border: 1px solid black;
+  margin-bottom: 75px;
+}
+.about .tulisan {
+  margin-bottom: 30px;
+}
+.about .coe {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  margin-top : 95px !important;
+}
+  .ptb {
+    background-image: linear-gradient(#d8dff0, #e5e9ee);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .ptb h3 {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  .ptb .pembatas {
+    margin: 0 auto;
+	  width: 370px;
+	  border: 1px solid black;
+  }
+  .biodata {
+    color: black;
+    padding-top: 50px;
+  }
+  .kontainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .biodata h5 {
+    font-size: 28px;
+  }
+  .biodata p {
+    opacity: 0.8;
+  }
+  .biodata h5, p {
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+  .biodata p {
+    padding-top: -10px;
+    margin-block-end: 0;
+  }
+  .biodata .kiri {
+    margin-left: 0;
+  }
+  .biodata .kanan {
+    text-align: right;
+  }
+  .biodata .kiri p {
+    margin-left: 3px;
+  }
+  .biodata .kanan p {
+    margin-right: -2px;
+  }
+  .biodata hr {
+    border: 1px solid black;
+    opacity: 0.3;
+  }
+  .biodata .kiri p {
+    margin-left: 45px;
+  }
+
+  .biodata .kanan p {
+    margin-right: 45px;
+  }
+
+
+/* contact */
+.contact {
+  background-image: linear-gradient(#f3f3f3, #dfe6f7);
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+.contact hr {
+  margin: 0 auto;
+	width: 150px;
+	border: 1px solid black;
+}
+.contact .card-body {
+  background-color: #177fd4;
+}
+.contact .card-body ul {
+	margin-left: -31px;
+}
+.contact .card-body ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 15px;
+	margin-top: 3px;
+}
+.contact .btn {
+	margin-top: 15px;
+}
+
+.contact .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .kirim {
+  background-color: #0b70c3;
+  color: white;
+}
+
+
+footer {
+    background-color: #0b70c3;
+    min-height: 50px;
+	padding-top: 12px;
+	color: white;
+	text-align: center;
+}
